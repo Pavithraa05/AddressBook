@@ -1,19 +1,40 @@
-Address Book Project
+# 📖 Address Book Project
 
-The Address Book Management System is a simple C-based application used to manage contact information. It allows users to add, search, edit, delete, and view contacts easily. The contact details are stored in a file, so the data remains available even after the program is closed. This project helps in understanding the basics of C programming, file handling, and data management.
+## Introduction
 
-Steps to run:
-1. Open terminal
-2. Navigate to project folder
-3. Run: make
-4. Run: ./addressbook
+The Address Book Management System is a simple C-based application used to manage contact information. It allows users to create, search, edit, delete, and view contacts efficiently. Contact details are stored in a file, ensuring that data is preserved even after the program is closed. This project demonstrates the use of C programming concepts such as structures, file handling, modular programming, and data management.
 
-Features:
-- Create contact
-- Search contact
-- Edit contact
-- Delete contact
-- List all contacts
-   -Sort contacts (Name / Phone / Email)
-   - Save contacts to file
+## Steps to Run
 
+1. Open the terminal.
+
+2. Navigate to the project directory.
+
+3. Compile the project:
+
+   make
+
+4. Run the executable:
+
+   ./addressbook
+
+## Features
+
+* Create Contact
+* Search Contact
+* Edit Contact
+* Delete Contact
+* List All Contacts
+
+  * Sort by Name
+  * Sort by Phone Number
+  * Sort by Email
+* Save Contacts to File
+
+
+## Technologies Used
+
+* C Programming
+* File Handling
+* Makefile
+* GCC Compiler
